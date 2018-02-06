@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7BB4339320293D380012021D /* ProspectsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB4339220293D380012021D /* ProspectsTests.swift */; };
+		7BB4339B20293D5E0012021D /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB4339A20293D5E0012021D /* Wage.swift */; };
+		7BB4339C20293F130012021D /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB4339A20293D5E0012021D /* Wage.swift */; };
 		7BC014B62028CFFA00641CC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC014B52028CFFA00641CC6 /* AppDelegate.swift */; };
 		7BC014B82028CFFA00641CC6 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC014B72028CFFA00641CC6 /* MainVC.swift */; };
 		7BC014BB2028CFFA00641CC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BC014B92028CFFA00641CC6 /* Main.storyboard */; };
@@ -15,7 +18,21 @@
 		7BC014CB2028D3F600641CC6 /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC014CA2028D3F600641CC6 /* CurrencyTextField.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		7BB4339520293D380012021D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BC014AA2028CFFA00641CC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BC014B12028CFFA00641CC6;
+			remoteInfo = Prospects;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		7BB4339020293D380012021D /* ProspectsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProspectsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB4339220293D380012021D /* ProspectsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectsTests.swift; sourceTree = "<group>"; };
+		7BB4339420293D380012021D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BB4339A20293D5E0012021D /* Wage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wage.swift; sourceTree = "<group>"; };
 		7BC014B22028CFFA00641CC6 /* Prospects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prospects.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BC014B52028CFFA00641CC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BC014B72028CFFA00641CC6 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -27,6 +44,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7BB4338D20293D380012021D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7BC014AF2028CFFA00641CC6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -37,10 +61,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7BB4339120293D380012021D /* ProspectsTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BB4339220293D380012021D /* ProspectsTests.swift */,
+				7BB4339420293D380012021D /* Info.plist */,
+			);
+			path = ProspectsTests;
+			sourceTree = "<group>";
+		};
 		7BC014A92028CFFA00641CC6 = {
 			isa = PBXGroup;
 			children = (
 				7BC014B42028CFFA00641CC6 /* Prospects */,
+				7BB4339120293D380012021D /* ProspectsTests */,
 				7BC014B32028CFFA00641CC6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				7BC014B22028CFFA00641CC6 /* Prospects.app */,
+				7BB4339020293D380012021D /* ProspectsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,6 +122,7 @@
 		7BC014C92028D17600641CC6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7BB4339A20293D5E0012021D /* Wage.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -94,6 +130,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		7BB4338F20293D380012021D /* ProspectsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB4339920293D380012021D /* Build configuration list for PBXNativeTarget "ProspectsTests" */;
+			buildPhases = (
+				7BB4338C20293D380012021D /* Sources */,
+				7BB4338D20293D380012021D /* Frameworks */,
+				7BB4338E20293D380012021D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BB4339620293D380012021D /* PBXTargetDependency */,
+			);
+			name = ProspectsTests;
+			productName = ProspectsTests;
+			productReference = 7BB4339020293D380012021D /* ProspectsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		7BC014B12028CFFA00641CC6 /* Prospects */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7BC014C42028CFFA00641CC6 /* Build configuration list for PBXNativeTarget "Prospects" */;
@@ -121,6 +175,11 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Dan Lindsay";
 				TargetAttributes = {
+					7BB4338F20293D380012021D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7BC014B12028CFFA00641CC6;
+					};
 					7BC014B12028CFFA00641CC6 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -141,11 +200,19 @@
 			projectRoot = "";
 			targets = (
 				7BC014B12028CFFA00641CC6 /* Prospects */,
+				7BB4338F20293D380012021D /* ProspectsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7BB4338E20293D380012021D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7BC014B02028CFFA00641CC6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -159,17 +226,35 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7BB4338C20293D380012021D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB4339320293D380012021D /* ProspectsTests.swift in Sources */,
+				7BB4339C20293F130012021D /* Wage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7BC014AE2028CFFA00641CC6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7BC014CB2028D3F600641CC6 /* CurrencyTextField.swift in Sources */,
+				7BB4339B20293D5E0012021D /* Wage.swift in Sources */,
 				7BC014B82028CFFA00641CC6 /* MainVC.swift in Sources */,
 				7BC014B62028CFFA00641CC6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BB4339620293D380012021D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BC014B12028CFFA00641CC6 /* Prospects */;
+			targetProxy = 7BB4339520293D380012021D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7BC014B92028CFFA00641CC6 /* Main.storyboard */ = {
@@ -191,6 +276,38 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		7BB4339720293D380012021D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 999T2QHS45;
+				INFOPLIST_FILE = ProspectsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dreamerongo.ProspectsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prospects.app/Prospects";
+			};
+			name = Debug;
+		};
+		7BB4339820293D380012021D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 999T2QHS45;
+				INFOPLIST_FILE = ProspectsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dreamerongo.ProspectsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prospects.app/Prospects";
+			};
+			name = Release;
+		};
 		7BC014C22028CFFA00641CC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -331,6 +448,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7BB4339920293D380012021D /* Build configuration list for PBXNativeTarget "ProspectsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB4339720293D380012021D /* Debug */,
+				7BB4339820293D380012021D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7BC014AD2028CFFA00641CC6 /* Build configuration list for PBXProject "Prospects" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
